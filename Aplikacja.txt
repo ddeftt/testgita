@@ -15,3 +15,4 @@ Logowanie do aplikacji:
 
 Przypomnij hasło
 sout - klieknij przycisk przypomnij hasło
+2525
