@@ -9,3 +9,9 @@ nowy branch kleint101
 =======
 klient102
 >>>>>>> klient102
+
+Logowanie do aplikacji:
+- Google
+
+Przypomnij hasło
+sout - klieknij przycisk przypomnij hasło
