@@ -7,8 +7,7 @@ public class GetDataScanner {
         Scanner scanner = (new Scanner(System.in));
         String name = scanner.nextLine();
         System.out.println("A teraz prosze podaj dowolną liczbę do obliczeń pola kwadratu: ");
-        Scanner scanner2 = (new Scanner(System.in));
-        int num = scanner2.nextInt();
+        int num = scanner.nextInt();
         System.out.println("Dziękuje!");
         System.out.println(name + " pole kwadratu to " + num * 4);
 
