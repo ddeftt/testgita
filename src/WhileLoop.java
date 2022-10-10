@@ -4,7 +4,7 @@ public class WhileLoop {
 
         while (num < 20) {
             System.out.println("Moja wartość to " + num + " i jestem mniejsa od 20");
-            num ++;
+            num=num+2;
         }
     }
 }
