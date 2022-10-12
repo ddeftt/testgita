@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class InstrukcjaSwitch {
     public static void main(String[] args) {
 
-        String danie = "Maciora";
+        System.out.println("Co Panu podać? ");
+        Scanner scanner = new Scanner(System.in);
+        String danie = scanner.nextLine();
+
 
         switch (danie) {
             case "Pizza":
