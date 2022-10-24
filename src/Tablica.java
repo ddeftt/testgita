@@ -1,25 +1,38 @@
+import java.util.Scanner;
+
 public class Tablica {
     public static void main(String[] args) {
-        String[] imiona = new String[3];
-        imiona[0] = "Stefan";
-        imiona[1] = "Adam";
-        imiona[2] = "Bartek";
-        System.out.println(imiona[0]);
-        System.out.println(imiona[1]);
-        System.out.println(imiona[2]);
+/*
+    String[] imiona = new String[3];
+    imiona[0] = "Marek";
+    imiona[1] = "Darek";
+    imiona[2] = "Warek";
+        System.out.println(imiona[0] + " " + imiona[1] + " " + imiona[2]);*/
 
-        int[] lottoNum = new int[] {1,2,3,4,5,6};
-        System.out.println(lottoNum[0]);
-        System.out.println(lottoNum[1]);
-        System.out.println(lottoNum[2]);
-        System.out.println(lottoNum[3]);
-        System.out.println(lottoNum[4]);
-        System.out.println(lottoNum[5]);
-        //długośc tablicy
+/*
+        int[] lotto = new int[] {1,2,3,4,5};
 
-        System.out.println(lottoNum.length);
+        for (int i=0; i<lotto.length/2; i++) {
+            int temp = lotto;
+        }
 
-        for (int i=0; i<lottoNum.length;i++)
-            System.out.println(imiona[i]);
+
+        /*for (int i=5; i<lotto.length; i-- ) {
+            System.out.println(lotto[i]);
+        }*/
+
+       /* for (int k = 1; k<100; k++) {
+            if (k%3==0) {
+                System.out.println("Liczba " + k + " jest podzielna przez 3");
+            }*/
+
+        }
     }
-}
+
+
+
+
+
+
+
+

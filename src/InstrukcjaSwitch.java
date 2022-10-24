@@ -3,24 +3,24 @@ import java.util.Scanner;
 public class InstrukcjaSwitch {
     public static void main(String[] args) {
 
-        System.out.println("Co Panu podać? ");
-        Scanner scanner = new Scanner(System.in);
-        String danie = scanner.nextLine();
+   Scanner scanner = new Scanner(System.in);
+   System.out.println("Podaj nazwe gry: ");
+   String game = scanner.nextLine();
 
 
-        switch (danie) {
-            case "Pizza":
-                System.out.println("cena to 22 zł");
-                break;
-            case "Losos":
-                System.out.println("Cen to 30 zł");
-                break;
-            case "Ffrytki":
-                System.out.println("Cena to 9 zł");
-                break;
-            default:
-                System.out.println("Brak dań w karcie");
-        }
+   switch (game) {
+       case "Diablo":
+           System.out.println("Średnia gra");
+           break;
+       case "Final fantasy":
+           System.out.println("Bardzo dobra gra");
+           break;
+       case "Horizon":
+           System.out.println("Równiez bardzo dobra");
+           break;
+       default:
+           System.out.println("Brak danych o grze");
+   }
 
     }
 }
