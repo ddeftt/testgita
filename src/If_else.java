@@ -5,7 +5,7 @@ public class If_else {
         int levelBonus = 5;
         int bonus = 100;
 
-        if(score == 5000) {
+        if(score == 5001) {
             System.out.println("Your score is 5k");
         }
     }
